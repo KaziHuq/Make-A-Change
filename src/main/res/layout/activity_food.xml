@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/foodbackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="366dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="29dp"
+                android:layout_marginRight="29dp"
+                android:layout_marginBottom="507dp"
+                android:text="  Healthy Diet Chart"
+                android:textColor="#7b6079"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/breakfastCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="125dp"
+                android:layout_marginEnd="277dp"
+                android:layout_marginRight="277dp"
+                android:layout_marginBottom="414dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Breakfast"
+                android:textColor="#DE8971"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/foodSpinner"
+                android:layout_width="105dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="177dp"
+                android:layout_marginLeft="177dp"
+                android:layout_marginTop="128dp"
+                android:layout_marginEnd="129dp"
+                android:layout_marginRight="129dp"
+                android:layout_marginBottom="417dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/lunchCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="304dp"
+                android:layout_marginRight="304dp"
+                android:layout_marginBottom="339dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Lunch"
+                android:textColor="#DE8971"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/lunchSpinner"
+                android:layout_width="105dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="178dp"
+                android:layout_marginLeft="178dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="128dp"
+                android:layout_marginRight="128dp"
+                android:layout_marginBottom="345dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/dinnerCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="276dp"
+                android:layout_marginEnd="299dp"
+                android:layout_marginRight="299dp"
+                android:layout_marginBottom="263dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Dinner"
+                android:textColor="#DE8971"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/dinnerSpinner"
+                android:layout_width="105dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="178dp"
+                android:layout_marginLeft="178dp"
+                android:layout_marginTop="276dp"
+                android:layout_marginEnd="128dp"
+                android:layout_marginRight="128dp"
+                android:layout_marginBottom="269dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/performanceButtonTwo"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="122dp"
+                android:layout_marginLeft="122dp"
+                android:layout_marginTop="350dp"
+                android:layout_marginEnd="137dp"
+                android:layout_marginRight="137dp"
+                android:layout_marginBottom="177dp"
+                android:text="Performance"
+                app:backgroundTint="#687980"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/foodResult"
+                android:layout_width="169dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="112dp"
+                android:layout_marginLeft="112dp"
+                android:layout_marginTop="448dp"
+                android:layout_marginEnd="130dp"
+                android:layout_marginRight="130dp"
+                android:layout_marginBottom="97dp"
+                android:textColor="#9F5F80"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/homeButtonTwo"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="115dp"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="525dp"
+                android:layout_marginEnd="136dp"
+                android:layout_marginRight="136dp"
+                android:layout_marginBottom="2dp"
+                android:text="Back to Home"
+                app:backgroundTint="#02475E"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

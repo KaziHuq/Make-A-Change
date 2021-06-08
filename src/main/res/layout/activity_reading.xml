@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reading">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bookbackground"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="294dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="117dp"
+                android:layout_marginRight="117dp"
+                android:layout_marginBottom="580dp"
+                android:fontFamily="sans-serif-black"
+                android:text="        READING"
+                android:textColor="#1EAE98"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="260dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="129dp"
+                android:layout_marginEnd="117dp"
+                android:layout_marginRight="117dp"
+                android:layout_marginBottom="482dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="How many pages are you planning to read today?"
+                android:textColor="#126E82"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/twoCheck"
+                android:layout_width="114dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="63dp"
+                android:layout_marginLeft="63dp"
+                android:layout_marginTop="230dp"
+                android:layout_marginEnd="234dp"
+                android:layout_marginRight="234dp"
+                android:layout_marginBottom="391dp"
+                android:fontFamily="serif"
+                android:text="Two Pages"
+                android:textColor="#2b4f60"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/threeCheck"
+                android:layout_width="132dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="295dp"
+                android:layout_marginEnd="179dp"
+                android:layout_marginRight="179dp"
+                android:layout_marginBottom="328dp"
+                android:fontFamily="serif"
+                android:text="Three Pages"
+                android:textColor="#2B4F60"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/fourCheck"
+                android:layout_width="114dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="158dp"
+                android:layout_marginLeft="158dp"
+                android:layout_marginTop="364dp"
+                android:layout_marginEnd="139dp"
+                android:layout_marginRight="139dp"
+                android:layout_marginBottom="257dp"
+                android:fontFamily="serif"
+                android:text="Four Pages"
+                android:textColor="#2B4F60"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/fiveCheck"
+                android:layout_width="126dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="232dp"
+                android:layout_marginLeft="232dp"
+                android:layout_marginTop="431dp"
+                android:layout_marginEnd="53dp"
+                android:layout_marginRight="53dp"
+                android:layout_marginBottom="191dp"
+                android:fontFamily="serif"
+                android:text="Five or More"
+                android:textColor="#2B4F60"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/performanceThree"
+                android:layout_width="161dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="466dp"
+                android:layout_marginEnd="234dp"
+                android:layout_marginRight="234dp"
+                android:layout_marginBottom="149dp"
+                android:text="Performance"
+                app:backgroundTint="#845460"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/readingText"
+                android:layout_width="161dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="546dp"
+                android:layout_marginEnd="234dp"
+                android:layout_marginRight="234dp"
+                android:layout_marginBottom="78dp"
+                android:textColor="#1B1A17"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/homeButtonThree"
+                android:layout_width="161dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="615dp"
+                android:layout_marginEnd="234dp"
+                android:layout_marginRight="234dp"
+                android:text="Back to Home"
+                app:backgroundTint="#4B778D"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

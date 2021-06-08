@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+
+        android:id="@+id/foodMenu"
+        android:title="Food"
+
+        />
+
+    <item
+
+        android:id="@+id/readingMenu"
+        android:title="Reading"
+
+        />
+
+    <item
+
+        android:id="@+id/fitnessMenu"
+        android:title="Fitness"
+
+        />
+
+</menu>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background0"
+    tools:context=".fitness">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fitness"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/fitnessNameTextView"
+                android:layout_width="410dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="611dp"
+                android:text="       FITNESS"
+                android:textSize="40sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/meditationCheck"
+                android:layout_width="251dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginLeft="56dp"
+                android:layout_marginTop="109dp"
+                android:layout_marginEnd="104dp"
+                android:layout_marginRight="104dp"
+                android:layout_marginBottom="533dp"
+                android:background="@drawable/background0"
+                android:text="Meditation"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/joggingCheck"
+                android:layout_width="251dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="58dp"
+                android:layout_marginLeft="58dp"
+                android:layout_marginTop="179dp"
+                android:layout_marginEnd="102dp"
+                android:layout_marginRight="102dp"
+                android:layout_marginBottom="463dp"
+                android:background="@drawable/background0"
+                android:text="Jogging"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/gymCheck"
+                android:layout_width="251dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="258dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginBottom="384dp"
+                android:background="@drawable/background0"
+                android:text="Gym"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/freehandCheck"
+                android:layout_width="251dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="61dp"
+                android:layout_marginLeft="61dp"
+                android:layout_marginTop="336dp"
+                android:layout_marginEnd="99dp"
+                android:layout_marginRight="99dp"
+                android:layout_marginBottom="306dp"
+                android:background="@drawable/background0"
+                android:text="Free Hand"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/jumpropeCheck"
+                android:layout_width="251dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginLeft="64dp"
+                android:layout_marginTop="419dp"
+                android:layout_marginEnd="96dp"
+                android:layout_marginRight="96dp"
+                android:layout_marginBottom="223dp"
+                android:background="@drawable/background0"
+                android:text="Jump Rope"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/performanceButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="106dp"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="495dp"
+                android:layout_marginEnd="159dp"
+                android:layout_marginRight="159dp"
+                android:layout_marginBottom="148dp"
+                android:text="Performance"
+                app:backgroundTint="#2b2e4a"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/resultText"
+                android:layout_width="179dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="91dp"
+                android:layout_marginLeft="91dp"
+                android:layout_marginTop="570dp"
+                android:layout_marginEnd="141dp"
+                android:layout_marginRight="141dp"
+                android:layout_marginBottom="77dp"
+                android:fontFamily="serif"
+                android:textColor="#eba83a"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/homeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="106dp"
+                android:layout_marginLeft="106dp"
+                android:layout_marginTop="627dp"
+                android:layout_marginEnd="158dp"
+                android:layout_marginRight="158dp"
+                android:layout_marginBottom="16dp"
+                android:text="Back to Home"
+                app:backgroundTint="#02475E"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
